@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Any, Dict, List, Optional
-from gcalendar_client.http_client import HTTPClient
-from gcalendar_client.utils import to_rfc3339
+from http import HTTPClient
+from utils import to_rfc3339
 
 
 class FreeBusyService:

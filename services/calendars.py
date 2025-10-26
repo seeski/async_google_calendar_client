@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional, Coroutine
+from typing import Any, Dict
 from http import HTTPClient
 
 

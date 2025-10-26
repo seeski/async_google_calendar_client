@@ -1,8 +1,10 @@
 from typing import Optional
 from http import HTTPClient
-from services.events import EventService
-from services.calendars import CalendarService
-from services.freebusy import FreeBusyService
+from services import (
+    EventService,
+    CalendarService,
+    FreeBusyService
+)
 
 
 class AsyncGCalendarClient:
